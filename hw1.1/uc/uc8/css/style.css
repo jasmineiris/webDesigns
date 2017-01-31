@@ -1,0 +1,131 @@
+/* -------------------------------------------------------
+
+	Description: Under Construction Page
+	Version: 1.0
+	Author: Anli Zaimi
+	Author URI: http://azmind.com
+
+------------------------------------------------------- */
+
+
+body {
+	background: url(../images/body-pattern.jpg) top left repeat;
+}
+
+header {
+	height: 305px;
+	margin: 0 auto;
+	padding-top: 1px;
+	background:
+		url(../images/header-border.png) 0 13px repeat-x,
+		url(../images/header-border.png) 0 289px repeat-x,
+		url(../images/header-gradient.png) center center no-repeat,
+		url(../images/dark-pattern.jpg) top left repeat;
+	box-shadow:
+		0 7px 9px 0 rgba(0,0,0,.2) inset,
+		0 -7px 9px 0 rgba(0,0,0,.2) inset,
+		0 5px 15px 0 rgba(0,0,0,.2),
+		0 20px 25px 5px rgba(255,255,255,.8);
+	-moz-box-shadow:
+		0 7px 9px 0 rgba(0,0,0,.2) inset,
+		0 -7px 9px 0 rgba(0,0,0,.2) inset,
+		0 5px 15px 0 rgba(0,0,0,.2),
+		0 20px 25px 5px rgba(255,255,255,.8);
+	-webkit-box-shadow:
+		0 7px 9px 0 rgba(0,0,0,.2) inset,
+		0 -7px 9px 0 rgba(0,0,0,.2) inset,
+		0 5px 15px 0 rgba(0,0,0,.2),
+		0 20px 25px 5px rgba(255,255,255,.8);
+	border-bottom: 1px solid #fff;
+	text-align: center;
+}
+
+header h1 {
+	position: relative;
+	margin-top: 20px;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: #fff;
+	text-shadow: 0 3px 0 rgba(0,0,0,.2);
+}
+
+header h2 {
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	color: #fff;
+	text-shadow: 0 3px 0 rgba(0,0,0,.2);
+}
+
+.blue {
+	color: #62729d;
+}
+
+
+/* ---- Countdown timer ---- */
+
+#counter {
+	width: 740px;
+	height: 100px;
+	margin: 0 auto;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 92px;
+	color: #fff;
+	line-height: 92px;
+	text-shadow: 0 3px 0 rgba(0,0,0,.2);
+	overflow: hidden;
+}
+
+#counter p {
+	float: left;
+	margin: 0 30px;
+	padding: 0;
+}
+
+#counter div {
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.digit {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 60px;
+	padding: 0;
+}
+
+#counter div p {
+	position: relative;
+	width: 60px;
+	height: 92px;
+	padding: 0;
+	margin: 0;
+	line-height: 92px;
+}
+
+#text {
+	width: 900px;
+	margin: 60px auto 0 auto;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	font-style: italic;
+	color: #eee;
+	overflow: hidden;	
+}
+
+#text div {
+	float: left;
+}
+
+.days { margin-left: 190px; }
+.hours { margin-left: 170px; }
+.minutes { margin-left: 165px; }
+.seconds { margin-left: 150px; }
+
+
+

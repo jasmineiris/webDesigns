@@ -1,0 +1,114 @@
+/*BACKGROUND SNOW IMAGE */
+body {
+	text-align: center;
+	border: 0px;
+	margin: 0px;
+	background-image: url("images/image3.jpg");
+	background-size: cover;
+}
+/*TRANSPARENT WHITE BACKGROUND FOR TABLE */
+.main {
+	width: 700px;
+	height: 320px;
+	background-color: rgba(255, 255, 255, 0.50); /*WHITE-TRANSPARENT*/
+	margin: 25px auto;
+	border: solid .1em rgba(255, 255, 255, 0.40); /*WHITE-TRANSPARENT*/
+	border-radius: 10px;
+	font-family: ‘Arial Narrow’, sans-serif;
+}
+/*CNIT133 GREY LETTERING HEADER */
+h1 {
+	text-align: center;
+	font-family: ‘Arial Narrow’, sans-serif;
+	font-size: 1.5em;
+	color: #313335; /*BLACK-GREY*/
+	text-transform: uppercase;
+}
+/*TOP BLACK NAVIGATION BAR*/
+.navbar {
+	color: white;
+	width: 100%;
+	height: 50px;
+	background-color: rgba(0,0,0,.8);/*BLACK-TRANSPARENT*/
+	position: 15px;
+	line-height: 50px;
+	border: solid 1px rgba(0,0,0,.6);/*BLACK-TRANSPARENT*/
+	font-family: ‘Arial Narrow’, sans-serif;
+}
+/*ALL LINKS HIGHLIGHT IN LIGHT BLUE-GREY*/
+a.hlinkref:hover {
+	color: #62729D; /*BLUE-GREY*/
+}
+a:hover {
+	color: #62729D; /*BLUE-GREY*/
+}
+a.linkref:link {
+	text-decoration: none;
+}
+/*"HW#1" TAB WHITE*/
+#hlinkr {
+	color: white;
+}
+a {
+	color: #313335;
+	text-decoration: none;
+	opacity: 0.9;
+	font-family: ‘Arial Narrow’, sans-serif;
+}
+.hlinkref {
+	text-decoration: none;
+	padding: 10px;
+	color: white;
+	opacity: 0.7;
+	font-family: ‘Arial Narrow’, sans-serif;
+}
+.r3 {
+	text-align: center;
+}
+/*NAVIGATION/HEADER LINKS IN WHITE*/
+tr {
+	color: #313335;/*BLACK/GREY*/
+	opacity: 0.8;
+	font-family: ‘Arial Narrow’, sans-serif; 
+
+}
+/*CAPTIONS COLOR/STYLE: HOMEWORK, DUE DATE ETC*/
+th {
+	padding: 12px;
+	color: white;
+	font-family: ‘Arial Narrow’, sans-serif;
+}
+/*BLUE BACKGROUND HEADER WITH CAPITAL WHITE TEXT*/
+thead {
+	background-color: rgba(98, 114, 157, 0.85); /*BLUE-TRAN*/
+	opacity: 0.9;
+	border: 3px solid white;
+}
+/*BODY OF TABLE ADDED ADDITIONAL WHITE LAYER*/
+table {
+	background-color: rgba(255, 255, 255, 0.9); /*WHITE-TRAN*/
+	border-spacing: 1px 1px;
+}
+/*ALIGNED HW LINKS & DUE DATES IN TABLE TO LEFT*/
+tbody {
+	text-align: left;
+}
+/*SET STYLE TEXT & ALIGNMENT FOR COPYRIGHT FOOTER*/
+footer {
+	text-align: center;
+	font-family: ‘Arial Narrow’, sans-serif;
+}
+/*CREATED BLACK BOTTOM FOOTERBAR*/
+#footerbar {
+	background-color: rgba(0,0,0,.8); /*BLACK-TRAN*/
+	color: white;
+	line-height: 30px;
+	border: solid 1px rgba(0,0,0,.6); /*BLACK-TRAN*/
+	font-family: ‘Arial Narrow’, sans-serif;
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	height:70px;
+	width:100%;
+}
+
